@@ -1,7 +1,7 @@
 const Engineer = require("../lib/Engineer");
 
 describe("Engineer", () => {
-    it("Test if if github is present", () => {
+    it("Test if github is present", () => {
         const testGithub = "JohnSmithGitHub";
         const testEnginner = new Engineer("John Smith", 12345, "JohnSmith@fakeEmail.com", testGithub);
         expect(testEnginner.name).toBe(testGithub);
